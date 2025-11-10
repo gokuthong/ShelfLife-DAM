@@ -21,7 +21,7 @@ export default function DashboardPage() {
   const { colorMode } = useColorMode()
   const { data: assetsData } = useAssets({ ordering: '-created_at' })
 
-  // Dark mode colors
+  // Dark mode color styles
   const cardBg = colorMode === 'dark' ? 'gray.800' : 'white'
   const borderColor = colorMode === 'dark' ? 'gray.700' : 'gray.200'
   const textColor = colorMode === 'dark' ? 'gray.300' : 'gray.600'
