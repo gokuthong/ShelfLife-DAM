@@ -161,11 +161,7 @@ class TestUserSerializer:
         assert data['last_name'] == 'Doe'
         assert data['is_admin'] is False
         assert data['is_editor'] is True
-<<<<<<< HEAD
-        assert data['is_viewer'] is True
-=======
         assert data['is_viewer'] is False
->>>>>>> 3068d61 (advanced filters, comments CRUD, and role-based permissions)
 
     def test_readonly_fields(self):
         """Test that certain fields are read-only"""

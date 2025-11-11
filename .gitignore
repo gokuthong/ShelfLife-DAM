@@ -135,3 +135,25 @@ db.sqlite3
 .vscode/
 .idea/
 *.code-workspace
+
+# --- local additions (ZC) ---
+.venv/
+venv/
+ENV/
+frontend/node_modules/
+frontend/.next/
+__pycache__/
+*.pyc
+
+# media & DB
+backend/media/
+media/
+*.sqlite3
+db.sqlite3
+
+# env & IDE
+.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace

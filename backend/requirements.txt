@@ -22,11 +22,7 @@ django-filter==23.5
 drf-yasg==1.21.7
 
 # Database
-<<<<<<< HEAD
-psycopg2-binary==2.9.11
-=======
 psycopg2-binary==2.9.9
->>>>>>> 3068d61 (advanced filters, comments CRUD, and role-based permissions)
 
 # Authentication
 PyJWT==2.10.1
